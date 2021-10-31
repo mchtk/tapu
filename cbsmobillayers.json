@@ -2,18 +2,10 @@
   "layers": [
    {
       "type" : "tile",
-      "Name" : "Google Map",
-      "urlTemplate" : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-      "subdomains" : ["a", "b", "c"],
+      "Name" : "Altlık Harita",
+      "urlTemplate" : "https://tile.e-plan.gov.tr/MapcodexServer/McxOgcService/McxOgcService.svc/wmtsserver?REQUEST=GetTile&LAYER=altlikTile:TileDataSource&FORMAT=image/png&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+      "subdomains" : [],
       "layers" : [],
-      "opacity" : 1.0
-    },
-   {
-      "type" : "wms",
-      "Name" : "Google Satalite Map",
-      "baseUrl" : "https://{s}.s2maps-tiles.eu/wms/?",
-      "subdomains" : ["a", "b", "c", "d", "e", "f", "g", "h"],
-      "layers" : ["s2cloudless-2018_3857"],
       "opacity" : 1.0
     }
   ] 
