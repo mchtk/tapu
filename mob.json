@@ -1,4 +1,4 @@
 {
   "version":"1.0.0",
-  "proxy": ""
+    "proxy": "https://proxy.karson.web.tr/?url="
 }
