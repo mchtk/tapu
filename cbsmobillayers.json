@@ -7,7 +7,9 @@
       "subdomains": [],
       "layers": [],
       "opacity": 1,
-      "active": 0
+      "active": 0,
+      "maxZoom": 18,
+      "minZoom": 0
     },
     {
       "type": "wms",
@@ -18,7 +20,9 @@
         "EPLAN:MV_EPLAN_CDP"
       ],
       "opacity": 1,
-      "active": 1
+      "active": 1,
+      "maxZoom": 18,
+      "minZoom": 4
     },
     {
       "type": "wms",
@@ -29,7 +33,9 @@
         "EPLAN:MV_EPLAN_NAZIM_IMAR_PLANI"
       ],
       "opacity": 1,
-      "active": 1
+      "active": 1,
+      "maxZoom": 18,
+      "minZoom": 4
     },
     {
       "type": "wms",
@@ -40,7 +46,9 @@
         "EPLAN:MV_EPLAN_UYGULAMA_IMAR_PLANI"
       ],
       "opacity": 1,
-      "active": 1
+      "active": 1,
+      "maxZoom": 18,
+      "minZoom": 4
     },
     {
       "type": "wms",
@@ -51,7 +59,9 @@
         "EPLAN:MV_PLAN_ASKI_LISTESI"
       ],
       "opacity": 1,
-      "active": 1
+      "active": 1,
+      "maxZoom": 18,
+      "minZoom": 4
     },
     {
       "type": "wms",
@@ -62,7 +72,9 @@
         "PINWMS:MV_RASTER_1000"
       ],
       "opacity": 1,
-      "active": 1
+      "active": 1,
+      "maxZoom": 18,
+      "minZoom": 15
     }
   ]
 }
