@@ -1,12 +1,68 @@
 {
   "layers": [
-   {
-      "type" : "tile",
-      "Name" : "Altlık Harita",
-      "urlTemplate" : "https://tile.e-plan.gov.tr/MapcodexServer/McxOgcService/McxOgcService.svc/wmtsserver?REQUEST=GetTile&LAYER=altlikTile:TileDataSource&FORMAT=image/png&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
-      "subdomains" : [],
-      "layers" : [],
-      "opacity" : 1.0
+    {
+      "type": "tile",
+      "Name": "Altlık Harita",
+      "urlTemplate": "https://tile.e-plan.gov.tr/MapcodexServer/McxOgcService/McxOgcService.svc/wmtsserver?REQUEST=GetTile&LAYER=altlikTile:TileDataSource&FORMAT=image/png&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+      "subdomains": [],
+      "layers": [],
+      "opacity": 1,
+      "active": 0
+    },
+    {
+      "type": "wms",
+      "Name": "CEVRE DUZENI PLAN SINIRI",
+      "urlTemplate": "https://servis.e-plan.gov.tr/MapcodexServer/McxOgcService/McxOgcService.svc/wmsserver",
+      "subdomains": [],
+      "layers": [
+        "EPLAN:MV_EPLAN_CDP"
+      ],
+      "opacity": 1,
+      "active": 1
+    },
+    {
+      "type": "wms",
+      "Name": "NAZIM IMAR PLAN SINIRI",
+      "urlTemplate": "https://servis.e-plan.gov.tr/MapcodexServer/McxOgcService/McxOgcService.svc/wmsserver",
+      "subdomains": [],
+      "layers": [
+        "EPLAN:MV_EPLAN_NAZIM_IMAR_PLANI"
+      ],
+      "opacity": 1,
+      "active": 1
+    },
+    {
+      "type": "wms",
+      "Name": "UYGULAMA IMAR PLAN SINIRI",
+      "urlTemplate": "https://servis.e-plan.gov.tr/MapcodexServer/McxOgcService/McxOgcService.svc/wmsserver",
+      "subdomains": [],
+      "layers": [
+        "EPLAN:MV_EPLAN_UYGULAMA_IMAR_PLANI"
+      ],
+      "opacity": 1,
+      "active": 1
+    },
+    {
+      "type": "wms",
+      "Name": "PLAN ASKI LISTESI",
+      "urlTemplate": "https://servis.e-plan.gov.tr/MapcodexServer/McxOgcService/McxOgcService.svc/wmsserver",
+      "subdomains": [],
+      "layers": [
+        "EPLAN:MV_PLAN_ASKI_LISTESI"
+      ],
+      "opacity": 1,
+      "active": 1
+    },
+    {
+      "type": "wms",
+      "Name": "RASTER 1000",
+      "urlTemplate": "https://servis.e-plan.gov.tr/MapcodexServer/McxOgcService/McxOgcService.svc/wmsserver",
+      "subdomains": [],
+      "layers": [
+        "PINWMS:MV_RASTER_1000"
+      ],
+      "opacity": 1,
+      "active": 1
     }
-  ] 
+  ]
 }
